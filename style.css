@@ -1,0 +1,118 @@
+/* The side navigation menu */
+*{
+    font-family: 'karma',serif;
+    border: none;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color:#fff; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+
+
+  .sidenav a {
+    padding: 25px 50px 8px 32px;
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    width: 1000px;
+    letter-spacing: 2px;
+    font-weight: 100  ;
+  }
+  
+  .sidenav a:hover {
+    background-color: #cccccc;
+    color: #000000;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+  }
+  .cards{
+      padding: 0% 10%;
+}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .open:hover{
+      cursor: pointer;
+      background-color:#cccccc
+  }
+  .open{
+      color: black;
+      font-size: 28px;
+      font-weight: 100;
+      margin-top: 10px;
+  }
+  .navmenu{
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    word-spacing: 1px;
+}
+.navmenu:hover{
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    word-spacing: 1px;
+}
+.card-title{
+    font-size: 27px;
+    font-weight: 400;
+    color: black !important;
+    
+
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+  
+
+@media screen and (max-width: 450px) {
+    .pagination{
+        position: absolute;
+        left: 5%;
+
+    }
+  }
+  .page1:hover{
+    background-color: #cccccc !important;
+    color: black !important;
+
+}
+.allpage{
+    color: black !important;
+    border: none;
+}
+.allpage:hover{
+    background-color: black !important;
+    color: white !important;
+}
+  .h2{
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 3px;
+  }
+  .h3{
+      
+      color: black;
+  }
